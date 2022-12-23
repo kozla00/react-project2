@@ -1,0 +1,80 @@
+ .matrix-board {
+    padding-top: 35px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 380px 380px 380px;
+  }
+
+  .martix-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: -235px;
+  }
+
+  .header {
+    margin-top: 5%;
+    text-align: center;
+    color: #57bbfa9e;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+  }
+
+  .header > h1 {
+    color: #5a6a7488; 
+  }
+
+  .product-icon {
+    position: relative;
+    top: -20%;
+    left: 37%;
+    font-size: 3rem;
+    color: #5a6a7477;
+  }
+
+  .matrix-box {
+    background-color:#57bbfaaf;
+    border: 1px solid  hsla(0, 0%, 0%, 0.1);
+    box-shadow: 0 0.15em 0.175em hsla(0, 0%, 0%, 0.647);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    transition: 500ms;
+    transition-timing-function: ease;
+  }
+
+  .matrix-box > p {
+    margin-top: 40px;
+    margin-right: 45px;
+  }
+
+  .matrix-box:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+    transition: 500ms;
+    transition-timing-function: ease;
+  }
+
+  @media screen and (max-width: 940px) {
+    .matrix-board {
+      grid-template-columns: 1fr;
+      grid-template-rows: 150px 150px 150px 150px 150px 150px;
+      padding-bottom: 100px;
+    }
+
+    .matrix-board {
+      height: 50%; 
+    }
+  
+    .product-icon {
+      height: 50%; 
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+}

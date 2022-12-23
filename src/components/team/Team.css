@@ -1,0 +1,51 @@
+.member-picture {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .team-group {
+    text-align: center;
+    display: grid;
+    margin-bottom: 5%;
+
+  }
+
+  .team-title {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(0, 0, 0, 0.756);
+    margin-bottom: 28px;
+  } 
+
+  .team-member > h3 {
+    font-family: 'Pacifico', cursive;
+  }
+
+  .team-members {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .member-social {
+	  display: inline-block;
+	  height: 30px;
+	  width: 30px;
+	  background-color: rgba(255, 248, 248, 0.831);
+	  margin: 0 10px 15px 0;
+	  text-align: center;
+	  border-radius: 50%;
+	  color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+@media(max-width: 767px){
+  .team-members{
+    grid-template-columns: 1fr;
+}
+
+.member-picture{
+  width: 50%;
+  height: 70%;
+}
+}

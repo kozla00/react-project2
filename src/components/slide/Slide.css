@@ -1,0 +1,52 @@
+
+  .App {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px
+  }
+
+  .App > h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+  }
+
+  .App > h3 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .card {
+    border: 2px solid rgba(0, 0, 0, 0.393);
+    background: #57bbfaaf;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 400px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card-top h1 {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+
+  .card-bottom h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+  }
+  
+  .card-bottom {
+    margin: 100px 20px;
+  }

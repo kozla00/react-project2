@@ -1,0 +1,23 @@
+.automation {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 5%;
+  }
+
+  .automation-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .automation > p {
+    padding: 5%;
+    line-height: 30px;
+  }
+
+  .begin {
+    font-family: 'Comfortaa', cursive;
+    color: #57bbfab0;
+  }

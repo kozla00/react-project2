@@ -1,0 +1,27 @@
+.motto {
+    display: grid;
+    grid-template-columns:  100%;  
+    margin-bottom: 60px;
+  }
+
+  .motto-text > p {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .motto-text {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: #34b1ff9e;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  @media(max-width: 767px){
+    .motto-text {
+      margin-top: 35%;
+  }
+    .motto-text > h2{
+      font-size: 20px; 
+  }
+  }

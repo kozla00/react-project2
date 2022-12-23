@@ -1,0 +1,23 @@
+.card-customer{
+	align-items: start;
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 500px);
+	justify-content: center;
+    margin-top: 30px;
+}
+
+.inside-card {
+	background-color: #57bbfab0;
+	border-radius: 5px;
+	color: white;
+	padding: 24px 0 16px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #555;
+}
+
+.customer-title {
+	text-align: center;
+    margin-top: 30px;
+}
+

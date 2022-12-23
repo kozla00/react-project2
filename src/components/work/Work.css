@@ -1,0 +1,42 @@
+.work {
+    text-align: center;
+    color: white;
+    display: grid;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .work > h3 {
+    font-size: 45px;
+  }
+
+  .work-proccess {
+    text-align: center;
+    background-color: #57bbfaaf;
+    margin-top: 8%;
+  }
+
+.work-type {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;  
+  }
+
+  .work-icon {
+    width: 40px;
+    color: black;
+  }
+
+  .work-step  {
+    padding: 3.5rem;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  @media screen and (max-width: 940px) {
+    .work-type{
+        grid-template-columns: 1fr;
+    }
+
+    .work-step{
+      padding: 1.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+  }
+
+  .about-text {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about-text > h1 {
+    font-family: 'Pacifico', cursive;
+    color:rgba(0, 0, 0, 0.815);
+  }
+
+  .about-text > p  {
+    padding: 50px;  
+  }
+
+  .ab-pic {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+  }
